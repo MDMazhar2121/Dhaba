@@ -13,17 +13,17 @@ function Home() {
                         {/* Hero Content */}
                         <div className="text-center lg:text-left">
                             <span className="inline-block bg-orange-50 text-orange-700 px-4 py-2 rounded-full text-sm font-semibold">
-                                Hot • Spicy • Straight From The Handi
+                                Hot • Spicy • Slow-Cooked Perfection
                             </span>
 
                             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mt-5">
-                                Har Dawat Mein
-                                <span className="text-orange-600"> Shahi </span>
+                                Experience the
+                                <span className="text-orange-600"> Royal </span>
                                 Biryani
                             </h1>
 
                             <p className="text-gray-600 text-lg mt-5 max-w-xl mx-auto lg:mx-0">
-                                Dum pe pakaya hua, mehek se bhara har niwala — aapke ghar tak.
+                                Slow-cooked to perfection with rich aromas and authentic flavours in every bite.
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
@@ -31,7 +31,7 @@ function Home() {
                                     to="/menu"
                                     className="bg-orange-600 text-white px-7 py-3 rounded-lg font-semibold hover:bg-orange-700 transition text-center"
                                 >
-                                    Explore Menu
+                                    View Our Menu
                                 </Link>
 
 
@@ -56,14 +56,14 @@ function Home() {
             <section className="bg-gray-50 py-16 md:py-20">
                 <div className="max-w-7xl mx-auto px-5 sm:px-8">
                     <div className="text-center">
-                        <p className="text-orange-600 font-semibold">HUMEIN KYU CHUNEIN?</p>
+                        <p className="text-orange-600 font-semibold">WHY CHOOSE US?</p>
 
                         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mt-2">
-                            Swaad Bhi, Vishwaas Bhi
+                            Taste You Can Trust
                         </h2>
 
                         <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-                            Behtareen zayka, shuddh saamagri, aur order karna bilkul aasaan.
+                            Rich flavours, fresh ingredients, and a hassle-free way to order your favourites.
                         </p>
                     </div>
 
@@ -75,11 +75,11 @@ function Home() {
                             </div>
 
                             <h3 className="text-xl font-bold text-gray-900 mt-5">
-                                Zaayka Jo Yaad Rahe
+                                Flavour You'll Remember
                             </h3>
 
                             <p className="text-gray-600 mt-3 leading-relaxed">
-                                Har dish pyaar se banayi gayi, har niwale mein bharpoor swaad.
+                                Every dish is crafted with care, packed with flavour in every bite.
                             </p>
                         </div>
 
@@ -90,11 +90,11 @@ function Home() {
                             </div>
 
                             <h3 className="text-xl font-bold text-gray-900 mt-5">
-                                Shuddh Saamagri
+                                Fresh Ingredients
                             </h3>
 
                             <p className="text-gray-600 mt-3 leading-relaxed">
-                                Taaza aur badhiya saamagri se hi asli zayka aata hai.
+                                Only the freshest, finest ingredients go into every meal we serve.
                             </p>
                         </div>
 
@@ -105,11 +105,11 @@ function Home() {
                             </div>
 
                             <h3 className="text-xl font-bold text-gray-900 mt-5">
-                                Dil Se Banaya Gaya
+                                Made With Heart
                             </h3>
 
                             <p className="text-gray-600 mt-3 leading-relaxed">
-                                Har thali mein mehnat aur apnapan dono shaamil hai.
+                                Every plate is prepared with genuine care to leave you satisfied.
                             </p>
                         </div>
                     </div>
@@ -119,17 +119,17 @@ function Home() {
             {/* CTA Section */}
             <section className="bg-orange-600">
                 <div className="max-w-7xl mx-auto px-5 sm:px-8 py-14 text-center text-white">
-                    <h2 className="text-3xl sm:text-4xl font-bold">Bhookh Lag Rahi Hai?</h2>
+                    <h2 className="text-3xl sm:text-4xl font-bold">Feeling Hungry?</h2>
 
                     <p className="mt-3 text-orange-50">
-                        Hamara menu dekhein aur kuch lazzat-daar chunein.
+                        Browse our menu and pick something delicious to enjoy.
                     </p>
 
                     <Link
                         to="/menu"
                         className="inline-block mt-7 bg-white text-orange-700 px-7 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
                     >
-                        Explore Menu
+                        Browse Menu
                     </Link>
                 </div>
             </section>
@@ -137,7 +137,15 @@ function Home() {
             {/* Footer */}
             <footer className="bg-white border-t border-gray-200">
                 <div className="max-w-7xl mx-auto px-5 sm:px-8 py-6">
-                    
+                    <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+                        <p className="text-gray-600 text-sm">
+                            © 2026 BiryaniKing. All rights reserved.
+                        </p>
+
+                        <p className="text-gray-500 text-sm">
+                            Taste that stays with you. 🍗
+                        </p>
+                    </div>
                 </div>
             </footer>
         </div>
