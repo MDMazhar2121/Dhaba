@@ -41,10 +41,6 @@ function MenuDetails() {
             </div>
             <div className="h-px bg-[#d8cebf] my-8" />
             <p className="text-[#625950] text-lg leading-8">{item.description}</p>
-            <div className="mt-10 bg-[#254c3a] text-white rounded-2xl p-6">
-              <div className="text-[#e4b34f] text-xs uppercase tracking-[.2em] font-bold">Kitchen note</div>
-              <p className="mt-2 text-[#ded5ca]">Prepared fresh in our kitchen. Availability can change during service.</p>
-            </div>
           </div>
         </div>
       </main>
