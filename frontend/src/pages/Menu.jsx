@@ -59,7 +59,7 @@ function Menu() {
         ) : (
           <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-x-7 gap-y-10">
             {visible.map((item, index) => (
-              <article key={item._id} className="group card-hover">
+              <article key={item._id} className="group card-hover border border-black rounded-2xl p-4">
                 <Link to={`/menu/${item._id}`} className="block">
                   <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-[#ddd0bd]">
                     {item.image ? (
@@ -72,18 +72,21 @@ function Menu() {
                     </span>
                     <span className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-[#f5f7f3] grid place-items-center text-lg opacity-0 group-hover:opacity-100 transition">↗</span>
                   </div>
-                </Link>
-                <div className="pt-5">
-                  <div className="flex justify-between gap-4">
-                    <div>
-                      <p className="text-[10px] uppercase tracking-[.2em] font-bold text-[#2f6b4f]">{item.category}</p>
-                      <h2 className="font-serif text-2xl mt-1">{item.name}</h2>
+                  <div className="pt-5">
+                    <div className="flex justify-between gap-4">
+                      <div>
+                        <p className="text-[10px] uppercase tracking-[.2em] font-bold text-[#2f6b4f]">{item.category}</p>
+                        <h2 className="font-serif text-2xl mt-1">{item.name}</h2>
+                      </div>
+                      <div className="font-bold text-lg">₹{item.price}</div>
                     </div>
-                    <div className="font-bold text-lg">₹{item.price}</div>
+                    <p className="text-[#756b60] text-sm leading-6 mt-2 line-clamp-2">{item.description}</p>
+                    <div className="mt-5 inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-full border border-[#24322a] group-hover:bg-[#2f6b4f] group-hover:border-[#2f6b4f] group-hover:text-white transition-all duration-300">
+                      View dish
+                      <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
+                    </div>
                   </div>
-                  <p className="text-[#756b60] text-sm leading-6 mt-2 line-clamp-2">{item.description}</p>
-                  <div className="mt-4 text-sm font-semibold border-b border-[#b9ad9d] w-fit pb-1">View dish →</div>
-                </div>
+                </Link>
               </article>
             ))}
           </div>
