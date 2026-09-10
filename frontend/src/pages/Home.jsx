@@ -137,15 +137,7 @@ function Home() {
             {/* Footer */}
             <footer className="bg-white border-t border-gray-200">
                 <div className="max-w-7xl mx-auto px-5 sm:px-8 py-6">
-                    <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-                        <p className="text-gray-600 text-sm">
-                            © 2026 BiryaniKing. All rights reserved.
-                        </p>
-
-                        <p className="text-gray-500 text-sm">
-                            Taste that stays with you. 🍗
-                        </p>
-                    </div>
+                   
                 </div>
             </footer>
         </div>
